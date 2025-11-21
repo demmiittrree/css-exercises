@@ -24,3 +24,55 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+
+body {
+  display:flex;
+  flex-direction: column;
+}
+
+/* header and footer*/
+.header, .footer {
+  display: flex;
+}
+
+.footer {
+  background-color: rgb(222, 221, 221);
+
+}
+
+a {
+  text-decoration: none; /*gets rid of underline*/
+  color:gray; /* makes links black */
+}
+
+ul {
+  list-style: none; /* makes dots go away */
+  display:flex; /* makes lists inline */
+}
+
+.right-links {
+  margin-left: auto;
+  gap: 16px;
+  padding-right: 16px;
+}
+
+.left-links {
+  margin-right: auto;
+  gap: 16px;
+  padding-left: 16px;
+}
+
+/* content */
+.content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1; /* makes it so that it takes up as much possible space*/
+}
+
+.buttons {
+  padding-top: 16px;
+}
